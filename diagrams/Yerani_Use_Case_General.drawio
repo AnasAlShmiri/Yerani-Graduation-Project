@@ -1,0 +1,1583 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device" version="24.7.17">
+  <diagram id="yerani-general-use-case-v1" name="Use Case العام — للمراجعة">
+    <mxGraphModel dx="2200" dy="2555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="2555" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;يرعاني — مخطط حالات الاستخدام العام&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=36;fontColor=#172B3A;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="28" width="1840" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;مرحلة التحليل والتصميم  |  المرجع: الإصدار 2.0  |  مسودة للمراجعة&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=21;fontColor=#526574;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="105" width="1840" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="roles-caption" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;الأدوار الأربعة: المريض • الطبيب • الممرض • مسؤول النظام&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="158" width="1840" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="system" value="" style="rounded=0;html=1;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=2;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="220" width="1340" height="2090" as="geometry" />
+        </mxCell>
+        <mxCell id="system-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;حدود نظام «يرعاني»&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=23;fontColor=#172B3A;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="855" y="226" width="490" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-01" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;font-size:22px;text-align:center;line-height:1.4&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:17px;font-weight:700;color:#28536A&quot;&gt;UC-01&lt;/div&gt;&lt;div style=&quot;font-size:22px&quot;&gt;إنشاء حساب المريض&lt;br/&gt;وتفعيل هويته&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#28536A;strokeWidth=1.7;align=center;verticalAlign=middle;fontSize=22;spacing=5;fontFamily=Noto Sans Arabic;fontColor=#172B3A;" vertex="1" parent="1" ucRef="UC-01">
+          <mxGeometry x="480" y="269" width="460" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-01" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="P">
+          <mxGeometry x="314" y="315.0" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-01-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-P-UC-01">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-01-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-01">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-01-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-01">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-01-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-01">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-01-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-01">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-01-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;المريض&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="314.0" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-P-UC-01" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=1;" edge="1" parent="1" source="actor-P-UC-01" target="UC-01">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-02" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;font-size:22px;text-align:center;line-height:1.4&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:17px;font-weight:700;color:#28536A&quot;&gt;UC-02&lt;/div&gt;&lt;div style=&quot;font-size:22px&quot;&gt;تسجيل واعتماد&lt;br/&gt;مقدم الرعاية المهنية&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#28536A;strokeWidth=1.7;align=center;verticalAlign=middle;fontSize=22;spacing=5;fontFamily=Noto Sans Arabic;fontColor=#172B3A;" vertex="1" parent="1" ucRef="UC-02">
+          <mxGeometry x="1260" y="269" width="460" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-02" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="D">
+          <mxGeometry x="1848" y="272.0" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-02-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-D-UC-02">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-02-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-02">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-02-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-02">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-02-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-02">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-02-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-02">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-02-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;الطبيب&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="271.0" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-D-UC-02" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.26756756756756755;entryPerimeter=1;" edge="1" parent="1" source="actor-D-UC-02" target="UC-02">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N-UC-02" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="N">
+          <mxGeometry x="1848" y="315.0" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N-UC-02-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-N-UC-02">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N-UC-02-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-02">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-02-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-02">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-02-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-02">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-02-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-02">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-02-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;الممرض&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="314.0" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-N-UC-02" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.5;entryPerimeter=1;" edge="1" parent="1" source="actor-N-UC-02" target="UC-02">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-A-UC-02" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="A">
+          <mxGeometry x="1848" y="358.0" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-A-UC-02-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-A-UC-02">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-A-UC-02-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-A-UC-02">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-A-UC-02-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-A-UC-02">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-A-UC-02-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-A-UC-02">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-A-UC-02-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-A-UC-02">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-A-UC-02-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;مسؤول النظام&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="357.0" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-A-UC-02" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.7324324324324325;entryPerimeter=1;" edge="1" parent="1" source="actor-A-UC-02" target="UC-02">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-03" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;font-size:22px;text-align:center;line-height:1.4&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:17px;font-weight:700;color:#28536A&quot;&gt;UC-03&lt;/div&gt;&lt;div style=&quot;font-size:22px&quot;&gt;المصادقة&lt;br/&gt;وإدارة الجلسات&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#28536A;strokeWidth=1.7;align=center;verticalAlign=middle;fontSize=22;spacing=5;fontFamily=Noto Sans Arabic;fontColor=#172B3A;" vertex="1" parent="1" ucRef="UC-03">
+          <mxGeometry x="480" y="454" width="460" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-03" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="P">
+          <mxGeometry x="314" y="435.5" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-03-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-P-UC-03">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-03-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-03">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-03-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-03">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-03-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-03">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-03-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-03">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-03-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;المريض&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="434.5" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-P-UC-03" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.15135135135135136;entryPerimeter=1;" edge="1" parent="1" source="actor-P-UC-03" target="UC-03">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-03" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="D">
+          <mxGeometry x="314" y="478.5" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-03-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-D-UC-03">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-03-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-03">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-03-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-03">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-03-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-03">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-03-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-03">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-03-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;الطبيب&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="477.5" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-D-UC-03" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.38378378378378375;entryPerimeter=1;" edge="1" parent="1" source="actor-D-UC-03" target="UC-03">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N-UC-03" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="N">
+          <mxGeometry x="314" y="521.5" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N-UC-03-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-N-UC-03">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N-UC-03-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-03">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-03-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-03">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-03-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-03">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-03-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-03">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-03-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;الممرض&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="520.5" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-N-UC-03" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.6162162162162163;entryPerimeter=1;" edge="1" parent="1" source="actor-N-UC-03" target="UC-03">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-A-UC-03" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="A">
+          <mxGeometry x="314" y="564.5" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-A-UC-03-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-A-UC-03">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-A-UC-03-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-A-UC-03">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-A-UC-03-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-A-UC-03">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-A-UC-03-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-A-UC-03">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-A-UC-03-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-A-UC-03">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-A-UC-03-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;مسؤول النظام&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="563.5" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-A-UC-03" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.8486486486486486;entryPerimeter=1;" edge="1" parent="1" source="actor-A-UC-03" target="UC-03">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-05" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;font-size:22px;text-align:center;line-height:1.4&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:17px;font-weight:700;color:#28536A&quot;&gt;UC-05&lt;/div&gt;&lt;div style=&quot;font-size:22px&quot;&gt;معالجة الطلب المتعثر&lt;br/&gt;وإعادة توجيهه إداريًا&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#28536A;strokeWidth=1.7;align=center;verticalAlign=middle;fontSize=22;spacing=5;fontFamily=Noto Sans Arabic;fontColor=#172B3A;" vertex="1" parent="1" ucRef="UC-05">
+          <mxGeometry x="1260" y="454" width="460" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-A-UC-05" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="A">
+          <mxGeometry x="1848" y="457.0" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-A-UC-05-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-A-UC-05">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-A-UC-05-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-A-UC-05">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-A-UC-05-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-A-UC-05">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-A-UC-05-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-A-UC-05">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-A-UC-05-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-A-UC-05">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-A-UC-05-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;مسؤول النظام&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="456.0" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-A-UC-05" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.26756756756756755;entryPerimeter=1;" edge="1" parent="1" source="actor-A-UC-05" target="UC-05">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-05" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="D">
+          <mxGeometry x="1848" y="500.0" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-05-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-D-UC-05">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-05-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-05">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-05-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-05">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-05-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-05">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-05-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-05">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-05-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;الطبيب&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="499.0" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-D-UC-05" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.5;entryPerimeter=1;" edge="1" parent="1" source="actor-D-UC-05" target="UC-05">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N-UC-05" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="N">
+          <mxGeometry x="1848" y="543.0" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N-UC-05-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-N-UC-05">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N-UC-05-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-05">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-05-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-05">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-05-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-05">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-05-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-05">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-05-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;الممرض&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="542.0" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-N-UC-05" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.7324324324324325;entryPerimeter=1;" edge="1" parent="1" source="actor-N-UC-05" target="UC-05">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-04" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;font-size:22px;text-align:center;line-height:1.4&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:17px;font-weight:700;color:#28536A&quot;&gt;UC-04&lt;/div&gt;&lt;div style=&quot;font-size:22px&quot;&gt;إنشاء طلب&lt;br/&gt;رعاية صحية جديد&lt;/div&gt;&lt;div style=&quot;font-size:14px;line-height:20px;color:#526574&quot;&gt;نقطة امتداد: اقتراح التخصص&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#28536A;strokeWidth=1.7;align=center;verticalAlign=middle;fontSize=22;spacing=5;fontFamily=Noto Sans Arabic;fontColor=#172B3A;" vertex="1" parent="1" ucRef="UC-04">
+          <mxGeometry x="480" y="639" width="460" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-04" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="P">
+          <mxGeometry x="314" y="685.0" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-04-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-P-UC-04">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-04-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-04">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-04-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-04">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-04-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-04">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-04-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-04">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-04-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;المريض&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="684.0" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-P-UC-04" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=1;" edge="1" parent="1" source="actor-P-UC-04" target="UC-04">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-06" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;font-size:22px;text-align:center;line-height:1.4&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:17px;font-weight:700;color:#28536A&quot;&gt;UC-06&lt;/div&gt;&lt;div style=&quot;font-size:22px&quot;&gt;المساعدة الذكية في وصف الأعراض&lt;br/&gt;واقتراح التخصص دون تشخيص&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#28536A;strokeWidth=1.7;align=center;verticalAlign=middle;fontSize=22;spacing=5;fontFamily=Noto Sans Arabic;fontColor=#172B3A;" vertex="1" parent="1" ucRef="UC-06">
+          <mxGeometry x="1260" y="639" width="460" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-06" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="P">
+          <mxGeometry x="1848" y="685.0" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-06-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-P-UC-06">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-06-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-06">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-06-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-06">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-06-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-06">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-06-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-06">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-06-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;المريض&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="684.0" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-P-UC-06" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.5;entryPerimeter=1;" edge="1" parent="1" source="actor-P-UC-06" target="UC-06">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-11" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;font-size:22px;text-align:center;line-height:1.4&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:17px;font-weight:700;color:#28536A&quot;&gt;UC-11&lt;/div&gt;&lt;div style=&quot;font-size:22px&quot;&gt;قبول طلب الخدمة&lt;br/&gt;وتحديد موعد&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#28536A;strokeWidth=1.7;align=center;verticalAlign=middle;fontSize=22;spacing=5;fontFamily=Noto Sans Arabic;fontColor=#172B3A;" vertex="1" parent="1" ucRef="UC-11">
+          <mxGeometry x="480" y="824" width="460" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-11" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="P">
+          <mxGeometry x="314" y="827.0" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-11-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-P-UC-11">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-11-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-11-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-11-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-11-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-11-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;المريض&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="826.0" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-P-UC-11" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.26756756756756755;entryPerimeter=1;" edge="1" parent="1" source="actor-P-UC-11" target="UC-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-11" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="D">
+          <mxGeometry x="314" y="870.0" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-11-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-D-UC-11">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-11-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-11-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-11-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-11-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-11-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;الطبيب&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="869.0" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-D-UC-11" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=1;" edge="1" parent="1" source="actor-D-UC-11" target="UC-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N-UC-11" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="N">
+          <mxGeometry x="314" y="913.0" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N-UC-11-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-N-UC-11">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N-UC-11-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-11-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-11-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-11-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-11-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;الممرض&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="912.0" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-N-UC-11" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.7324324324324325;entryPerimeter=1;" edge="1" parent="1" source="actor-N-UC-11" target="UC-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-12" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;font-size:22px;text-align:center;line-height:1.4&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:17px;font-weight:700;color:#28536A&quot;&gt;UC-12&lt;/div&gt;&lt;div style=&quot;font-size:22px&quot;&gt;تأكيد الموعد&lt;br/&gt;وإثبات السعر المتفق عليه&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#28536A;strokeWidth=1.7;align=center;verticalAlign=middle;fontSize=22;spacing=5;fontFamily=Noto Sans Arabic;fontColor=#172B3A;" vertex="1" parent="1" ucRef="UC-12">
+          <mxGeometry x="1260" y="824" width="460" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-12" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="P">
+          <mxGeometry x="1848" y="827.0" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-12-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-P-UC-12">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-12-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-12-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-12-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-12-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-12-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;المريض&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="826.0" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-P-UC-12" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.26756756756756755;entryPerimeter=1;" edge="1" parent="1" source="actor-P-UC-12" target="UC-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-12" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="D">
+          <mxGeometry x="1848" y="870.0" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-12-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-D-UC-12">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-12-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-12-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-12-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-12-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-12-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;الطبيب&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="869.0" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-D-UC-12" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.5;entryPerimeter=1;" edge="1" parent="1" source="actor-D-UC-12" target="UC-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N-UC-12" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="N">
+          <mxGeometry x="1848" y="913.0" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N-UC-12-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-N-UC-12">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N-UC-12-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-12-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-12-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-12-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-12-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;الممرض&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="912.0" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-N-UC-12" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.7324324324324325;entryPerimeter=1;" edge="1" parent="1" source="actor-N-UC-12" target="UC-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-13" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;font-size:22px;text-align:center;line-height:1.4&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:17px;font-weight:700;color:#28536A&quot;&gt;UC-13&lt;/div&gt;&lt;div style=&quot;font-size:22px&quot;&gt;تعديل الموعد&lt;br/&gt;أو إلغاؤه&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#28536A;strokeWidth=1.7;align=center;verticalAlign=middle;fontSize=22;spacing=5;fontFamily=Noto Sans Arabic;fontColor=#172B3A;" vertex="1" parent="1" ucRef="UC-13">
+          <mxGeometry x="480" y="1009" width="460" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-13" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="P">
+          <mxGeometry x="314" y="1012.0" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-13-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-P-UC-13">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-13-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-13-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-13-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-13-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-13-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;المريض&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="1011.0" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-P-UC-13" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.26756756756756755;entryPerimeter=1;" edge="1" parent="1" source="actor-P-UC-13" target="UC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-13" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="D">
+          <mxGeometry x="314" y="1055.0" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-13-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-D-UC-13">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-13-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-13-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-13-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-13-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-13-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;الطبيب&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="1054.0" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-D-UC-13" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=1;" edge="1" parent="1" source="actor-D-UC-13" target="UC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N-UC-13" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="N">
+          <mxGeometry x="314" y="1098.0" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N-UC-13-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-N-UC-13">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N-UC-13-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-13-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-13-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-13-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-13-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;الممرض&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="1097.0" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-N-UC-13" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.7324324324324325;entryPerimeter=1;" edge="1" parent="1" source="actor-N-UC-13" target="UC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-14" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;font-size:22px;text-align:center;line-height:1.4&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:17px;font-weight:700;color:#28536A&quot;&gt;UC-14&lt;/div&gt;&lt;div style=&quot;font-size:22px&quot;&gt;توجيه طلب مساعدة طارئة&lt;br/&gt;إرشاد ووسائل تواصل فقط&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#28536A;strokeWidth=1.7;align=center;verticalAlign=middle;fontSize=22;spacing=5;fontFamily=Noto Sans Arabic;fontColor=#172B3A;" vertex="1" parent="1" ucRef="UC-14">
+          <mxGeometry x="1260" y="1009" width="460" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-14" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="P">
+          <mxGeometry x="1848" y="1055.0" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-14-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-P-UC-14">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-14-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-14-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-14-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-14-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-14-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;المريض&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="1054.0" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-P-UC-14" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.5;entryPerimeter=1;" edge="1" parent="1" source="actor-P-UC-14" target="UC-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-15" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;font-size:22px;text-align:center;line-height:1.4&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:17px;font-weight:700;color:#28536A&quot;&gt;UC-15&lt;/div&gt;&lt;div style=&quot;font-size:22px&quot;&gt;بدء الزيارة المنزلية&lt;br/&gt;وتسجيل الوصول&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#28536A;strokeWidth=1.7;align=center;verticalAlign=middle;fontSize=22;spacing=5;fontFamily=Noto Sans Arabic;fontColor=#172B3A;" vertex="1" parent="1" ucRef="UC-15">
+          <mxGeometry x="480" y="1194" width="460" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-15" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="P">
+          <mxGeometry x="314" y="1197.0" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-15-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-P-UC-15">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-15-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-15-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-15-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-15-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-15-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;المريض&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="1196.0" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-P-UC-15" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.26756756756756755;entryPerimeter=1;" edge="1" parent="1" source="actor-P-UC-15" target="UC-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-15" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="D">
+          <mxGeometry x="314" y="1240.0" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-15-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-D-UC-15">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-15-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-15-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-15-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-15-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-15-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;الطبيب&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="1239.0" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-D-UC-15" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=1;" edge="1" parent="1" source="actor-D-UC-15" target="UC-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N-UC-15" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="N">
+          <mxGeometry x="314" y="1283.0" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N-UC-15-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-N-UC-15">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N-UC-15-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-15-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-15-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-15-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-15-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;الممرض&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="1282.0" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-N-UC-15" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.7324324324324325;entryPerimeter=1;" edge="1" parent="1" source="actor-N-UC-15" target="UC-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-16" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;font-size:22px;text-align:center;line-height:1.4&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:17px;font-weight:700;color:#28536A&quot;&gt;UC-16&lt;/div&gt;&lt;div style=&quot;font-size:22px&quot;&gt;إجراء الاستشارة عن بُعد&lt;br/&gt;بين المريض والطبيب&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#28536A;strokeWidth=1.7;align=center;verticalAlign=middle;fontSize=22;spacing=5;fontFamily=Noto Sans Arabic;fontColor=#172B3A;" vertex="1" parent="1" ucRef="UC-16">
+          <mxGeometry x="1260" y="1194" width="460" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-16" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="P">
+          <mxGeometry x="1848" y="1218.5" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-16-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-P-UC-16">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-16-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-16-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-16-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-16-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-16-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;المريض&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="1217.5" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-P-UC-16" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.38378378378378375;entryPerimeter=1;" edge="1" parent="1" source="actor-P-UC-16" target="UC-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-16" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="D">
+          <mxGeometry x="1848" y="1261.5" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-16-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-D-UC-16">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-16-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-16-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-16-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-16-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-16-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;الطبيب&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="1260.5" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-D-UC-16" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.6162162162162163;entryPerimeter=1;" edge="1" parent="1" source="actor-D-UC-16" target="UC-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-07" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;font-size:22px;text-align:center;line-height:1.4&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:17px;font-weight:700;color:#28536A&quot;&gt;UC-07&lt;/div&gt;&lt;div style=&quot;font-size:22px&quot;&gt;عرض ملخص السجل الصحي&lt;br/&gt;للممارس المصرح&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#28536A;strokeWidth=1.7;align=center;verticalAlign=middle;fontSize=22;spacing=5;fontFamily=Noto Sans Arabic;fontColor=#172B3A;" vertex="1" parent="1" ucRef="UC-07">
+          <mxGeometry x="480" y="1379" width="460" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-07" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="D">
+          <mxGeometry x="314" y="1425.0" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-07-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-D-UC-07">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-07-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-07">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-07-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-07">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-07-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-07">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-07-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-07">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-07-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;الطبيب&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="1424.0" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-D-UC-07" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=1;" edge="1" parent="1" source="actor-D-UC-07" target="UC-07">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-08" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;font-size:22px;text-align:center;line-height:1.4&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:17px;font-weight:700;color:#28536A&quot;&gt;UC-08&lt;/div&gt;&lt;div style=&quot;font-size:22px&quot;&gt;إرفاق نتائج الفحوصات&lt;br/&gt;ومراجعتها&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#28536A;strokeWidth=1.7;align=center;verticalAlign=middle;fontSize=22;spacing=5;fontFamily=Noto Sans Arabic;fontColor=#172B3A;" vertex="1" parent="1" ucRef="UC-08">
+          <mxGeometry x="1260" y="1379" width="460" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-08" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="P">
+          <mxGeometry x="1848" y="1403.5" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-08-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-P-UC-08">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-08-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-08">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-08-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-08">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-08-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-08">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-08-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-08">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-08-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;المريض&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="1402.5" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-P-UC-08" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.38378378378378375;entryPerimeter=1;" edge="1" parent="1" source="actor-P-UC-08" target="UC-08">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-08" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="D">
+          <mxGeometry x="1848" y="1446.5" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-08-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-D-UC-08">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-08-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-08">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-08-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-08">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-08-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-08">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-08-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-08">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-08-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;الطبيب&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="1445.5" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-D-UC-08" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.6162162162162163;entryPerimeter=1;" edge="1" parent="1" source="actor-D-UC-08" target="UC-08">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-17" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;font-size:22px;text-align:center;line-height:1.4&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:17px;font-weight:700;color:#28536A&quot;&gt;UC-17&lt;/div&gt;&lt;div style=&quot;font-size:22px&quot;&gt;توثيق الاستشارة والرعاية&lt;br/&gt;في الملف الصحي الموحد&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#28536A;strokeWidth=1.7;align=center;verticalAlign=middle;fontSize=22;spacing=5;fontFamily=Noto Sans Arabic;fontColor=#172B3A;" vertex="1" parent="1" ucRef="UC-17">
+          <mxGeometry x="480" y="1564" width="460" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-17" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="D">
+          <mxGeometry x="314" y="1588.5" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-17-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-D-UC-17">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-17-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-17-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-17-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-17-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-17-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;الطبيب&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="1587.5" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-D-UC-17" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.38378378378378375;entryPerimeter=1;" edge="1" parent="1" source="actor-D-UC-17" target="UC-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N-UC-17" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="N">
+          <mxGeometry x="314" y="1631.5" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N-UC-17-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-N-UC-17">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N-UC-17-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-17-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-17-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-17-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-17-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;الممرض&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="1630.5" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-N-UC-17" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.6162162162162163;entryPerimeter=1;" edge="1" parent="1" source="actor-N-UC-17" target="UC-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-18" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;font-size:22px;text-align:center;line-height:1.4&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:17px;font-weight:700;color:#28536A&quot;&gt;UC-18&lt;/div&gt;&lt;div style=&quot;font-size:22px&quot;&gt;إغلاق الخدمة&lt;br/&gt;بعد استكمال التوثيق&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#28536A;strokeWidth=1.7;align=center;verticalAlign=middle;fontSize=22;spacing=5;fontFamily=Noto Sans Arabic;fontColor=#172B3A;" vertex="1" parent="1" ucRef="UC-18">
+          <mxGeometry x="1260" y="1564" width="460" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-18" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="D">
+          <mxGeometry x="1848" y="1588.5" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-18-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-D-UC-18">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-18-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-18-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-18-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-18-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-18-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;الطبيب&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="1587.5" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-D-UC-18" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.38378378378378375;entryPerimeter=1;" edge="1" parent="1" source="actor-D-UC-18" target="UC-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N-UC-18" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="N">
+          <mxGeometry x="1848" y="1631.5" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N-UC-18-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-N-UC-18">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N-UC-18-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-18-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-18-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-18-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-N-UC-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-UC-18-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;الممرض&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="1630.5" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-N-UC-18" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.6162162162162163;entryPerimeter=1;" edge="1" parent="1" source="actor-N-UC-18" target="UC-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-09" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;font-size:22px;text-align:center;line-height:1.4&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:17px;font-weight:700;color:#28536A&quot;&gt;UC-09&lt;/div&gt;&lt;div style=&quot;font-size:22px&quot;&gt;التذكير بالعلاج والمتابعة&lt;br/&gt;بعد الزيارة&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#28536A;strokeWidth=1.7;align=center;verticalAlign=middle;fontSize=22;spacing=5;fontFamily=Noto Sans Arabic;fontColor=#172B3A;" vertex="1" parent="1" ucRef="UC-09">
+          <mxGeometry x="480" y="1749" width="460" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-09" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="P">
+          <mxGeometry x="314" y="1773.5" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-09-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-P-UC-09">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-09-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-09">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-09-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-09">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-09-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-09">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-09-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-09">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-09-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;المريض&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="1772.5" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-P-UC-09" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.38378378378378375;entryPerimeter=1;" edge="1" parent="1" source="actor-P-UC-09" target="UC-09">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-09" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="D">
+          <mxGeometry x="314" y="1816.5" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-09-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-D-UC-09">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-UC-09-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-09">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-09-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-09">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-09-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-09">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-09-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-D-UC-09">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-UC-09-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;الطبيب&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="1815.5" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-D-UC-09" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.6162162162162163;entryPerimeter=1;" edge="1" parent="1" source="actor-D-UC-09" target="UC-09">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-19" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;font-size:22px;text-align:center;line-height:1.4&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:17px;font-weight:700;color:#28536A&quot;&gt;UC-19&lt;/div&gt;&lt;div style=&quot;font-size:22px&quot;&gt;تقييم الخدمة&lt;br/&gt;وتقديم الملاحظات&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#28536A;strokeWidth=1.7;align=center;verticalAlign=middle;fontSize=22;spacing=5;fontFamily=Noto Sans Arabic;fontColor=#172B3A;" vertex="1" parent="1" ucRef="UC-19">
+          <mxGeometry x="1260" y="1749" width="460" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-19" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="P">
+          <mxGeometry x="1848" y="1795.0" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-19-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-P-UC-19">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-19-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-19-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-19-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-19-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-19-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;المريض&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="1794.0" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-P-UC-19" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.5;entryPerimeter=1;" edge="1" parent="1" source="actor-P-UC-19" target="UC-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-20" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;font-size:22px;text-align:center;line-height:1.4&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:17px;font-weight:700;color:#28536A&quot;&gt;UC-20&lt;/div&gt;&lt;div style=&quot;font-size:22px&quot;&gt;تحديث السجل التاريخي&lt;br/&gt;والتقارير الإدارية&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#28536A;strokeWidth=1.7;align=center;verticalAlign=middle;fontSize=22;spacing=5;fontFamily=Noto Sans Arabic;fontColor=#172B3A;" vertex="1" parent="1" ucRef="UC-20">
+          <mxGeometry x="480" y="1934" width="460" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-A-UC-20" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="A">
+          <mxGeometry x="314" y="1980.0" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-A-UC-20-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-A-UC-20">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-A-UC-20-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-A-UC-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-A-UC-20-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-A-UC-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-A-UC-20-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-A-UC-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-A-UC-20-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-A-UC-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-A-UC-20-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;مسؤول النظام&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="1979.0" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-A-UC-20" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=1;" edge="1" parent="1" source="actor-A-UC-20" target="UC-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-20.A" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;font-size:22px;text-align:center;line-height:1.4&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:17px;font-weight:700;color:#28536A&quot;&gt;UC-20.A&lt;/div&gt;&lt;div style=&quot;font-size:22px&quot;&gt;استعراض المريض&lt;br/&gt;لسجله الصحي&lt;/div&gt;&lt;div style=&quot;font-size:14px;line-height:20px;color:#526574&quot;&gt;تفصيل موثق من UC-17 / UC-20 • FR-050&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#28536A;strokeWidth=1.7;align=center;verticalAlign=middle;fontSize=22;spacing=5;fontFamily=Noto Sans Arabic;fontColor=#172B3A;" vertex="1" parent="1" ucRef="UC-20.A">
+          <mxGeometry x="1260" y="1934" width="460" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-20.A" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="P">
+          <mxGeometry x="1848" y="1980.0" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-20.A-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-P-UC-20.A">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-UC-20.A-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-20.A">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-20.A-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-20.A">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-20.A-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-20.A">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-20.A-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-P-UC-20.A">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-UC-20.A-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;المريض&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="1979.0" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-P-UC-20.A" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.5;entryPerimeter=1;" edge="1" parent="1" source="actor-P-UC-20.A" target="UC-20.A">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ADM-01" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;font-size:22px;text-align:center;line-height:1.4&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:17px;font-weight:700;color:#28536A&quot;&gt;ADM-01&lt;/div&gt;&lt;div style=&quot;font-size:22px&quot;&gt;إدارة المستخدمين&lt;br/&gt;والصلاحيات&lt;/div&gt;&lt;div style=&quot;font-size:14px;line-height:20px;color:#526574&quot;&gt;هدف موثق في القسم 3 • رمز محلي&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#28536A;strokeWidth=1.7;align=center;verticalAlign=middle;fontSize=22;spacing=5;fontFamily=Noto Sans Arabic;fontColor=#172B3A;" vertex="1" parent="1" ucRef="ADM-01">
+          <mxGeometry x="480" y="2119" width="460" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-A-ADM-01" value="" style="group;fillColor=none;strokeColor=none;" vertex="1" parent="1" roleRef="A">
+          <mxGeometry x="314" y="2165.0" width="28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-A-ADM-01-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#263C4B;strokeWidth=1.5;" vertex="1" parent="actor-A-ADM-01">
+          <mxGeometry x="9" y="0" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-A-ADM-01-body" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-A-ADM-01">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="10" as="sourcePoint" />
+            <mxPoint x="14" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-A-ADM-01-arms" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-A-ADM-01">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="17" as="sourcePoint" />
+            <mxPoint x="27" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-A-ADM-01-leg-left" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-A-ADM-01">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="3" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-A-ADM-01-leg-right" value="" style="endArrow=none;startArrow=none;strokeWidth=1.5;strokeColor=#263C4B;" edge="1" parent="actor-A-ADM-01">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14" y="26" as="sourcePoint" />
+            <mxPoint x="25" y="39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-A-ADM-01-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;مسؤول النظام&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=20;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="2164.0" width="265" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-A-ADM-01" value="" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#526574;strokeWidth=1.3;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=1;" edge="1" parent="1" source="actor-A-ADM-01" target="ADM-01">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="extend-UC06-UC04" value="&lt;div style=&quot;text-align:center;line-height:1.5&quot;&gt;&lt;div dir=&quot;ltr&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/div&gt;&lt;div dir=&quot;rtl&quot;&gt;[اختيار المريض المساعدة]&lt;/div&gt;&lt;/div&gt;" style="endArrow=open;endFill=0;startArrow=none;dashed=1;dashPattern=7 5;strokeColor=#28536A;strokeWidth=1.6;exitX=0;exitY=0.5;exitPerimeter=1;entryX=1;entryY=0.5;entryPerimeter=1;html=1;fontSize=16;fontFamily=Noto Sans Arabic;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;" edge="1" parent="1" source="UC-06" target="UC-04">
+          <mxGeometry relative="1" as="geometry" x="0" y="-25" />
+        </mxCell>
+        <mxCell id="scope-note" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;&lt;b&gt;حدود الصلاحيات&lt;/b&gt;&lt;br/&gt;الطبيب: التشخيص والوصفة واعتماد الخطة.&lt;br/&gt;الممرض: العلامات والإجراءات والتقرير فقط.&lt;br/&gt;المريض: استعراض سجله، دون تحرير التوثيق السريري.&lt;/div&gt;" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#526574;strokeWidth=1;align=center;verticalAlign=middle;fontSize=18;spacing=14;fontFamily=Noto Sans Arabic;fontColor=#172B3A;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="2115" width="460" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="note-1" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;المساعدة الذكية مكوّن داخلي داعم لاقتراح التخصص؛ لا تشخّص ولا تصف علاجًا.&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=21;fontColor=#172B3A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="2345" width="1760" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="note-2" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;تكرار رمز الممثل هو تكرار بصري للهوية نفسها لتجنب تقاطع العلاقات؛ لا يضيف أدوارًا جديدة.&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=19;fontColor=#526574;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="2397" width="1760" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="note-3" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;الخط المتصل: مشاركة الممثل  |  السهم المتقطع: امتداد اختياري من UC-06 إلى UC-04&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=19;fontColor=#526574;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="2448" width="1760" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="note-4" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic;line-height:1.5;text-align:center&quot;&gt;لا يتضمن الرسم UC-10 أو الدفع الإلكتروني أو إرسال الإسعاف أو التحليل الطبي الآلي المستقبلي.&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=fill;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans Arabic;fontColor=#172B3A;fontSize=18;fontColor=#526574;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="2495" width="1760" height="38" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

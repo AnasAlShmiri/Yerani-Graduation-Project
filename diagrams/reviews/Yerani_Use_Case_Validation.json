@@ -1,0 +1,34 @@
+{
+  "useCases": 21,
+  "actorOccurrences": 41,
+  "associations": 41,
+  "extensions": 1,
+  "bounds": {
+    "x": 24.5,
+    "y": 27.5,
+    "width": 2141,
+    "height": 2506
+  },
+  "clipped": [],
+  "browserErrors": [],
+  "xmlReferencesValid": true,
+  "nativeEditableElements": true,
+  "codecRoundTripPreservesAllCellIds": true,
+  "relationshipCrossings": 0,
+  "allRelationshipTargetsOnEllipsePerimeters": true,
+  "coveredInScopeRequirements": 46,
+  "excludedRequirementIds": [
+    "FR-016",
+    "FR-021",
+    "FR-026",
+    "FR-028"
+  ],
+  "pdfPages": 1,
+  "pdfContainsAllUseCaseIds": true,
+  "referenceMatchesUploadedMarkdown": true,
+  "reviewLinksResolve": true,
+  "renderEngine": "mxGraph 4.2.2 in Chromium",
+  "fullDrawioEditorTested": false,
+  "visualReview": "Inspected PNG at overview and detail scales",
+  "userApproval": "pending"
+}
