@@ -1,0 +1,55 @@
+{
+  "status": "draft-awaiting-user-review",
+  "diagramVersion": "v2",
+  "functionalReference": "Markdown 2.0",
+  "notationReference": "OMG UML 2.5.1 — Use Cases",
+  "xmlReferencesValid": true,
+  "nativeEditableVectorShapes": true,
+  "codecRoundTripPreservesAllCellIds": true,
+  "actorSymbols": 4,
+  "actorIdentities": [
+    "Patient",
+    "Doctor",
+    "Nurse",
+    "Administrator"
+  ],
+  "functionalPackages": 4,
+  "useCaseEllipses": 21,
+  "baselineUseCases": 19,
+  "existingDocumentedRefinements": [
+    "UC-20.A",
+    "ADM-01"
+  ],
+  "previousUseCaseIdsPreserved": true,
+  "actorUseCaseAssociations": 41,
+  "previousAssociationSetPreserved": true,
+  "includeRelations": 0,
+  "extendRelations": 1,
+  "extendDirection": "UC-06 -> UC-04",
+  "generalizationRelations": 0,
+  "inScopeFunctionalRequirements": 46,
+  "excludedRequirements": [
+    "FR-016",
+    "FR-021",
+    "FR-026",
+    "FR-028"
+  ],
+  "futureUseCaseUC10Drawn": false,
+  "relationshipsThroughUnrelatedUseCaseEllipses": 0,
+  "useCaseLabelsOutsideTheirBounds": 0,
+  "relationshipCrossings": 39,
+  "lineCrossingPresentation": "arc line jumps; no junction dots or implied extra associations",
+  "pngPixels": [
+    7016,
+    4960
+  ],
+  "pdfPages": 1,
+  "pdfPaper": "A2 landscape, 594 x 420 mm",
+  "pdfContainsAllUseCaseIds": true,
+  "pdfFontsEmbedded": true,
+  "renderEngine": "mxGraph 4.2.2 in Chromium; package and line-jump rendering enabled",
+  "fullDrawioEditorTested": false,
+  "browserErrors": [],
+  "visualReview": "Full exported diagram plus all four functional groups inspected at readable scale",
+  "approvedByUser": false
+}

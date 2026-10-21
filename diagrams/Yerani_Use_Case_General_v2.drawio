@@ -1,0 +1,478 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device" version="24.7.17">
+  <diagram id="yerani-general-use-case-v2" name="Use Case v2 — مسودة للمراجعة">
+    <mxGraphModel dx="3508" dy="2480" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="3508" pageHeight="2480" background="#FFFFFF" guides="1" tooltips="1" connect="1" arrows="1" fold="1" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:46px;line-height:1.45;text-align:center;font-weight:700&quot;&gt;يرعاني — مخطط حالات الاستخدام العام&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=visible;spacing=0;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;fontSize=46;" vertex="1" parent="1">
+          <mxGeometry x="500" y="24" width="2500" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:24px;line-height:1.45;text-align:center;font-weight:400&quot;&gt;Use Case Diagram · v2 · مسودة للمراجعة&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=visible;spacing=0;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="600" y="109" width="2300" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="system-boundary" value="" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=#172B36;strokeWidth=2.5;connectable=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="350" width="2860" height="1820" as="geometry" />
+        </mxCell>
+        <mxCell id="system-name" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:30px;line-height:1.45;text-align:center;font-weight:700&quot;&gt;نظام يرعاني · Yerani System&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=visible;spacing=0;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="362" width="940" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="pkg-accounts" value="" style="shape=folder;tabWidth=520;tabHeight=50;fillColor=#FFFFFF;strokeColor=#9AA4AC;strokeWidth=1.25;container=1;collapsible=0;recursiveResize=0;connectable=0;" vertex="1" parent="1" domainRef="accounts">
+          <mxGeometry x="440" y="470" width="1120" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="pkg-label-accounts" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:25px;line-height:1.45;text-align:center;font-weight:700&quot;&gt;الحسابات والصلاحيات&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=visible;spacing=0;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;fontSize=25;" vertex="1" parent="pkg-accounts">
+          <mxGeometry x="10" y="3" width="500" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="pkg-requests" value="" style="shape=folder;tabWidth=600;tabHeight=50;fillColor=#FFFFFF;strokeColor=#9AA4AC;strokeWidth=1.25;container=1;collapsible=0;recursiveResize=0;connectable=0;" vertex="1" parent="1" domainRef="requests">
+          <mxGeometry x="1740" y="470" width="1300" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="pkg-label-requests" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:25px;line-height:1.45;text-align:center;font-weight:700&quot;&gt;طلبات الرعاية والمواعيد&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=visible;spacing=0;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;fontSize=25;" vertex="1" parent="pkg-requests">
+          <mxGeometry x="10" y="3" width="580" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="pkg-records" value="" style="shape=folder;tabWidth=650;tabHeight=50;fillColor=#FFFFFF;strokeColor=#9AA4AC;strokeWidth=1.25;container=1;collapsible=0;recursiveResize=0;connectable=0;" vertex="1" parent="1" domainRef="records">
+          <mxGeometry x="440" y="1190" width="1120" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="pkg-label-records" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:25px;line-height:1.45;text-align:center;font-weight:700&quot;&gt;السجلات والمتابعة والإدارة&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=visible;spacing=0;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;fontSize=25;" vertex="1" parent="pkg-records">
+          <mxGeometry x="10" y="3" width="630" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="pkg-clinical" value="" style="shape=folder;tabWidth=650;tabHeight=50;fillColor=#FFFFFF;strokeColor=#9AA4AC;strokeWidth=1.25;container=1;collapsible=0;recursiveResize=0;connectable=0;" vertex="1" parent="1" domainRef="clinical">
+          <mxGeometry x="1740" y="1190" width="1300" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="pkg-label-clinical" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:25px;line-height:1.45;text-align:center;font-weight:700&quot;&gt;الخدمات الطبية والتمريضية&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=visible;spacing=0;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;fontSize=25;" vertex="1" parent="pkg-clinical">
+          <mxGeometry x="10" y="3" width="630" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-A-ADM-01" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=0.5;exitY=1.0;exitPerimeter=0;entryX=0.9619397662556431;entryY=0.30865828381745486;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-A" target="ADM-01">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2313.5" y="449.5" />
+              <mxPoint x="1766.5" y="449.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="assoc-A-UC-02" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=0.5;exitY=1.0;exitPerimeter=0;entryX=0.9619397662556431;entryY=0.30865828381745486;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-A" target="UC-02">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2307.98" y="528.98" />
+              <mxPoint x="1844.1993876161123" y="592.0313860783268" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="assoc-A-UC-03" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=0.5;exitY=1.0;exitPerimeter=0;entryX=1.0;entryY=0.5;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-A" target="UC-03">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2083.44" y="430.44" />
+              <mxPoint x="1771.56" y="454.56" />
+              <mxPoint x="1445.563015834006" y="681.548422164178" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="assoc-A-UC-05" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=0.5;exitY=1.0;exitPerimeter=0;entryX=0.3086582838174543;entryY=0.03806023374435639;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-A" target="UC-05">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-A-UC-20" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=0.5;exitY=1.0;exitPerimeter=0;entryX=0.9619397662556431;entryY=0.30865828381745397;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-A" target="UC-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2576.36" y="650.0" />
+              <mxPoint x="2521.776419741925" y="708.9444212797106" />
+              <mxPoint x="1843.223580258075" y="811.0555787202894" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="assoc-D-UC-02" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=0.5;exitY=0.0;exitPerimeter=0;entryX=0.9619397662556431;entryY=0.6913417161825451;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-D" target="UC-02">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1872.548466311688" y="1434.717040984161" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="assoc-D-UC-03" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=0.5;exitY=0.0;exitPerimeter=0;entryX=0.9619397662556435;entryY=0.6913417161825451;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-D" target="UC-03">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1916.9255240087361" y="1906.1003419053184" />
+              <mxPoint x="1471.48" y="1370.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="assoc-D-UC-05" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=0.5;exitY=0.0;exitPerimeter=0;entryX=0.1464466094067258;entryY=0.8535533905932738;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-D" target="UC-05">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2279.12" y="1400.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="assoc-D-UC-07" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=0.5;exitY=0.0;exitPerimeter=0;entryX=1.0;entryY=0.5;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-D" target="UC-07">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-D-UC-08" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=0.5;exitY=0.0;exitPerimeter=0;entryX=1.0;entryY=0.5;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-D" target="UC-08">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-D-UC-09" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=0.5;exitY=0.0;exitPerimeter=0;entryX=1.0;entryY=0.5;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-D" target="UC-09">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-D-UC-11" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=0.5;exitY=0.0;exitPerimeter=0;entryX=0.5;entryY=1.0;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-D" target="UC-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2263.6266724237153" y="1433.1327315741694" />
+              <mxPoint x="2263.6266724237153" y="1366.8672684258304" />
+              <mxPoint x="2362.58" y="1253.58" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="assoc-D-UC-12" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=0.5;exitY=0.0;exitPerimeter=0;entryX=0.1464466094067265;entryY=0.8535533905932738;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-D" target="UC-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1861.34" y="1400.0" />
+              <mxPoint x="1768.34" y="1252.66" />
+              <mxPoint x="1768.34" y="1171.34" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="assoc-D-UC-13" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=0.5;exitY=0.0;exitPerimeter=0;entryX=0.1464466094067258;entryY=0.8535533905932738;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-D" target="UC-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2569.8529460828486" y="1903.1729198312062" />
+              <mxPoint x="2507.66" y="1840.0" />
+              <mxPoint x="2523.8234200665534" y="1365.811062152503" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="assoc-D-UC-15" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=0.5;exitY=0.0;exitPerimeter=0;entryX=0.8535533905932733;entryY=0.853553390593273;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-D" target="UC-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-D-UC-16" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=0.5;exitY=0.0;exitPerimeter=0;entryX=0.961939766255644;entryY=0.6913417161825443;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-D" target="UC-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-D-UC-17" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=0.5;exitY=0.0;exitPerimeter=0;entryX=0.14644660940672677;entryY=0.853553390593273;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-D" target="UC-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2518.7" y="1840.0" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="assoc-D-UC-18" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=0.5;exitY=0.0;exitPerimeter=0;entryX=0.5;entryY=1.0;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-D" target="UC-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-N-UC-02" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=0.0;exitY=0.4166666666666667;exitPerimeter=0;entryX=1.0;entryY=0.5;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-N" target="UC-02">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2049.837572033317" y="784.4857104707553" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="assoc-N-UC-03" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=0.0;exitY=0.4166666666666667;exitPerimeter=0;entryX=0.9619397662556431;entryY=0.30865828381745486;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-N" target="UC-03">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2805.0" y="555.6" />
+              <mxPoint x="1835.4171213937755" y="583.2491198559899" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="assoc-N-UC-05" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=0.0;exitY=0.4166666666666667;exitPerimeter=0;entryX=1.0;entryY=0.5;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-N" target="UC-05">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-N-UC-11" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=0.0;exitY=0.4166666666666667;exitPerimeter=0;entryX=0.8535533905932742;entryY=0.14644660940672613;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-N" target="UC-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-N-UC-12" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=0.0;exitY=0.4166666666666667;exitPerimeter=0;entryX=0.8535533905932742;entryY=0.14644660940672613;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-N" target="UC-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-N-UC-13" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=0.0;exitY=0.4166666666666667;exitPerimeter=0;entryX=1.0;entryY=0.5;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-N" target="UC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-N-UC-15" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=0.0;exitY=0.4166666666666667;exitPerimeter=0;entryX=0.9619397662556428;entryY=0.30865828381745397;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-N" target="UC-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-N-UC-17" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=0.0;exitY=0.4166666666666667;exitPerimeter=0;entryX=0.9619397662556428;entryY=0.30865828381745397;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-N" target="UC-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-N-UC-18" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=0.0;exitY=0.4166666666666667;exitPerimeter=0;entryX=0.8535533905932733;entryY=0.14644660940672521;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-N" target="UC-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-P-UC-01" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=1.0;exitY=0.4166666666666667;exitPerimeter=0;entryX=0.1464466094067263;entryY=0.8535533905932738;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-P" target="UC-01">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-P-UC-03" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=1.0;exitY=0.4166666666666667;exitPerimeter=0;entryX=0.03806023374435654;entryY=0.6913417161825451;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-P" target="UC-03">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-P-UC-04" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=1.0;exitY=0.4166666666666667;exitPerimeter=0;entryX=0.0;entryY=0.5;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-P" target="UC-04">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="463.74" y="1257.26" />
+              <mxPoint x="463.74" y="1166.74" />
+              <mxPoint x="1187.2157655374717" y="786.6106333955313" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="assoc-P-UC-06" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=1.0;exitY=0.4166666666666667;exitPerimeter=0;entryX=0.1464466094067258;entryY=0.8535533905932738;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-P" target="UC-06">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="464.2" y="1167.2" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="assoc-P-UC-08" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=1.0;exitY=0.4166666666666667;exitPerimeter=0;entryX=0.03806023374435654;entryY=0.3086582838174558;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-P" target="UC-08">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-P-UC-09" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=1.0;exitY=0.4166666666666667;exitPerimeter=0;entryX=0.0;entryY=0.5;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-P" target="UC-09">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-P-UC-11" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=1.0;exitY=0.4166666666666667;exitPerimeter=0;entryX=0.03806023374435647;entryY=0.6913417161825451;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-P" target="UC-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="588.6713227012558" y="1303.5743889753358" />
+              <mxPoint x="1069.94" y="1260.94" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="assoc-P-UC-12" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=1.0;exitY=0.4166666666666667;exitPerimeter=0;entryX=0.03806023374435647;entryY=0.6913417161825451;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-P" target="UC-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="917.2629541738266" y="1402.2525596797298" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="assoc-P-UC-13" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=1.0;exitY=0.4166666666666667;exitPerimeter=0;entryX=0.03806023374435647;entryY=0.6913417161825451;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-P" target="UC-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="656.5116280219202" y="1455.0893049442896" />
+              <mxPoint x="735.0" y="1462.1" />
+              <mxPoint x="1059.9" y="1370.0" />
+              <mxPoint x="1119.972399178639" y="1304.875465452719" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="assoc-P-UC-14" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=1.0;exitY=0.4166666666666667;exitPerimeter=0;entryX=0.0;entryY=0.5;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-P" target="UC-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc-P-UC-15" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=1.0;exitY=0.4166666666666667;exitPerimeter=0;entryX=0.14644660940672616;entryY=0.853553390593273;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-P" target="UC-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1074.6623387120246" y="1734.4027871213993" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="assoc-P-UC-16" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=1.0;exitY=0.4166666666666667;exitPerimeter=0;entryX=0.0;entryY=0.5;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-P" target="UC-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1265.0" y="1686.18" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="assoc-P-UC-19" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=1.0;exitY=0.4166666666666667;exitPerimeter=0;entryX=0.0;entryY=0.5;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-P" target="UC-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="808.9114781269934" y="1644.0397057354546" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="assoc-P-UC-20.A" value="" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=none;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=1.0;exitY=0.4166666666666667;exitPerimeter=0;entryX=0.0;entryY=0.5;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="actor-P" target="UC-20.A">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="extend-UC06-UC04" value="«extend»" style="edgeStyle=none;noEdgeStyle=1;shape=connector;rounded=0;html=1;strokeColor=#56656E;strokeWidth=1.75;startArrow=none;endArrow=open;endFill=0;endSize=12;dashed=1;dashPattern=7 5;jumpStyle=arc;jumpSize=10;jumpPriority=0;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1.0;entryY=0.5;entryPerimeter=0;fontSize=18;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="UC-06" target="UC-04">
+          <mxGeometry relative="1" as="geometry" y="-28" />
+        </mxCell>
+        <mxCell id="UC-01" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:26px;line-height:1.3;text-align:center&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:18px;line-height:24px;font-weight:700&quot;&gt;UC-01&lt;/div&gt;&lt;div&gt;إنشاء حساب&lt;br/&gt;المريض&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#253943;strokeWidth=2;align=center;verticalAlign=middle;fontSize=26;spacing=3;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;" vertex="1" parent="pkg-accounts" ucRef="UC-01" domainRef="accounts">
+          <mxGeometry x="120.0" y="118.0" width="350" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-02" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:26px;line-height:1.3;text-align:center&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:18px;line-height:24px;font-weight:700&quot;&gt;UC-02&lt;/div&gt;&lt;div&gt;طلب الاعتماد&lt;br/&gt;ومراجعته&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#253943;strokeWidth=2;align=center;verticalAlign=middle;fontSize=26;spacing=3;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;" vertex="1" parent="pkg-accounts" ucRef="UC-02" domainRef="accounts">
+          <mxGeometry x="650.0" y="338.0" width="350" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-03" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:26px;line-height:1.3;text-align:center&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:18px;line-height:24px;font-weight:700&quot;&gt;UC-03&lt;/div&gt;&lt;div&gt;تسجيل الدخول&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#253943;strokeWidth=2;align=center;verticalAlign=middle;fontSize=26;spacing=3;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;" vertex="1" parent="pkg-accounts" ucRef="UC-03" domainRef="accounts">
+          <mxGeometry x="120.0" y="338.0" width="350" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="ADM-01" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:26px;line-height:1.3;text-align:center&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:18px;line-height:24px;font-weight:700&quot;&gt;ADM-01&lt;/div&gt;&lt;div&gt;إدارة الحسابات&lt;br/&gt;والصلاحيات&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#253943;strokeWidth=2;align=center;verticalAlign=middle;fontSize=26;spacing=3;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;" vertex="1" parent="pkg-accounts" ucRef="ADM-01" domainRef="accounts">
+          <mxGeometry x="650.0" y="118.0" width="350" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-04" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:26px;line-height:1.3;text-align:center&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:18px;line-height:24px;font-weight:700&quot;&gt;UC-04&lt;/div&gt;&lt;div&gt;طلب الرعاية&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#253943;strokeWidth=2;align=center;verticalAlign=middle;fontSize=26;spacing=3;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;" vertex="1" parent="pkg-requests" ucRef="UC-04" domainRef="requests" extensionPoint="اقتراح التخصص أثناء إعداد الطلب">
+          <mxGeometry x="70.0" y="118.0" width="330" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-06" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:26px;line-height:1.3;text-align:center&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:18px;line-height:24px;font-weight:700&quot;&gt;UC-06&lt;/div&gt;&lt;div&gt;اقتراح التخصص&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#253943;strokeWidth=2;align=center;verticalAlign=middle;fontSize=26;spacing=3;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;" vertex="1" parent="pkg-requests" ucRef="UC-06" domainRef="requests" extensionCondition="اختيار المريض المساعدة الذكية قبل إرسال الطلب">
+          <mxGeometry x="485.0" y="118.0" width="330" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-05" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:26px;line-height:1.3;text-align:center&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:18px;line-height:24px;font-weight:700&quot;&gt;UC-05&lt;/div&gt;&lt;div&gt;معالجة الطلب&lt;br/&gt;المتعثر&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#253943;strokeWidth=2;align=center;verticalAlign=middle;fontSize=26;spacing=3;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;" vertex="1" parent="pkg-requests" ucRef="UC-05" domainRef="requests">
+          <mxGeometry x="900.0" y="118.0" width="330" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-11" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:26px;line-height:1.3;text-align:center&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:18px;line-height:24px;font-weight:700&quot;&gt;UC-11&lt;/div&gt;&lt;div&gt;قبول الطلب&lt;br/&gt;وحجز موعد&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#253943;strokeWidth=2;align=center;verticalAlign=middle;fontSize=26;spacing=3;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;" vertex="1" parent="pkg-requests" ucRef="UC-11" domainRef="requests">
+          <mxGeometry x="485.0" y="338.0" width="330" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-12" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:26px;line-height:1.3;text-align:center&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:18px;line-height:24px;font-weight:700&quot;&gt;UC-12&lt;/div&gt;&lt;div&gt;تأكيد الموعد&lt;br/&gt;والسعر&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#253943;strokeWidth=2;align=center;verticalAlign=middle;fontSize=26;spacing=3;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;" vertex="1" parent="pkg-requests" ucRef="UC-12" domainRef="requests">
+          <mxGeometry x="70.0" y="338.0" width="330" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-13" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:26px;line-height:1.3;text-align:center&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:18px;line-height:24px;font-weight:700&quot;&gt;UC-13&lt;/div&gt;&lt;div&gt;تعديل الموعد&lt;br/&gt;أو إلغاؤه&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#253943;strokeWidth=2;align=center;verticalAlign=middle;fontSize=26;spacing=3;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;" vertex="1" parent="pkg-requests" ucRef="UC-13" domainRef="requests">
+          <mxGeometry x="900.0" y="338.0" width="330" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-07" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:26px;line-height:1.3;text-align:center&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:18px;line-height:24px;font-weight:700&quot;&gt;UC-07&lt;/div&gt;&lt;div&gt;استعراض السجل&lt;br/&gt;للممارس&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#253943;strokeWidth=2;align=center;verticalAlign=middle;fontSize=26;spacing=3;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;" vertex="1" parent="pkg-records" ucRef="UC-07" domainRef="records">
+          <mxGeometry x="650.0" y="518.0" width="350" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-08" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:26px;line-height:1.3;text-align:center&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:18px;line-height:24px;font-weight:700&quot;&gt;UC-08&lt;/div&gt;&lt;div&gt;رفع الفحوصات&lt;br/&gt;ومراجعتها&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#253943;strokeWidth=2;align=center;verticalAlign=middle;fontSize=26;spacing=3;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;" vertex="1" parent="pkg-records" ucRef="UC-08" domainRef="records">
+          <mxGeometry x="120.0" y="718.0" width="350" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-09" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:26px;line-height:1.3;text-align:center&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:18px;line-height:24px;font-weight:700&quot;&gt;UC-09&lt;/div&gt;&lt;div&gt;متابعة العلاج&lt;br/&gt;والتذكير&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#253943;strokeWidth=2;align=center;verticalAlign=middle;fontSize=26;spacing=3;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;" vertex="1" parent="pkg-records" ucRef="UC-09" domainRef="records">
+          <mxGeometry x="120.0" y="518.0" width="350" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-20.A" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:26px;line-height:1.3;text-align:center&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:18px;line-height:24px;font-weight:700&quot;&gt;UC-20.A&lt;/div&gt;&lt;div&gt;استعراض السجل&lt;br/&gt;للمريض&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#253943;strokeWidth=2;align=center;verticalAlign=middle;fontSize=26;spacing=3;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;" vertex="1" parent="pkg-records" ucRef="UC-20.A" domainRef="records">
+          <mxGeometry x="120.0" y="318.0" width="350" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-14" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:26px;line-height:1.3;text-align:center&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:18px;line-height:24px;font-weight:700&quot;&gt;UC-14&lt;/div&gt;&lt;div&gt;طلب إرشاد&lt;br/&gt;طارئ&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#253943;strokeWidth=2;align=center;verticalAlign=middle;fontSize=26;spacing=3;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;" vertex="1" parent="pkg-records" ucRef="UC-14" domainRef="records">
+          <mxGeometry x="650.0" y="118.0" width="350" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-19" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:26px;line-height:1.3;text-align:center&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:18px;line-height:24px;font-weight:700&quot;&gt;UC-19&lt;/div&gt;&lt;div&gt;تقييم الخدمة&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#253943;strokeWidth=2;align=center;verticalAlign=middle;fontSize=26;spacing=3;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;" vertex="1" parent="pkg-records" ucRef="UC-19" domainRef="records">
+          <mxGeometry x="650.0" y="318.0" width="350" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-20" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:26px;line-height:1.3;text-align:center&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:18px;line-height:24px;font-weight:700&quot;&gt;UC-20&lt;/div&gt;&lt;div&gt;عرض التقارير&lt;br/&gt;الإدارية&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#253943;strokeWidth=2;align=center;verticalAlign=middle;fontSize=26;spacing=3;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;" vertex="1" parent="pkg-records" ucRef="UC-20" domainRef="records">
+          <mxGeometry x="120.0" y="118.0" width="350" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-15" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:26px;line-height:1.3;text-align:center&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:18px;line-height:24px;font-weight:700&quot;&gt;UC-15&lt;/div&gt;&lt;div&gt;بدء الزيارة&lt;br/&gt;المنزلية&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#253943;strokeWidth=2;align=center;verticalAlign=middle;fontSize=26;spacing=3;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;" vertex="1" parent="pkg-clinical" ucRef="UC-15" domainRef="clinical">
+          <mxGeometry x="145.0" y="148.0" width="370" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-16" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:26px;line-height:1.3;text-align:center&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:18px;line-height:24px;font-weight:700&quot;&gt;UC-16&lt;/div&gt;&lt;div&gt;إجراء استشارة&lt;br/&gt;عن بُعد&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#253943;strokeWidth=2;align=center;verticalAlign=middle;fontSize=26;spacing=3;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;" vertex="1" parent="pkg-clinical" ucRef="UC-16" domainRef="clinical">
+          <mxGeometry x="145.0" y="588.0" width="370" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-17" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:26px;line-height:1.3;text-align:center&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:18px;line-height:24px;font-weight:700&quot;&gt;UC-17&lt;/div&gt;&lt;div&gt;توثيق الرعاية&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#253943;strokeWidth=2;align=center;verticalAlign=middle;fontSize=26;spacing=3;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;" vertex="1" parent="pkg-clinical" ucRef="UC-17" domainRef="clinical">
+          <mxGeometry x="795.0" y="148.0" width="370" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-18" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:26px;line-height:1.3;text-align:center&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;font-size:18px;line-height:24px;font-weight:700&quot;&gt;UC-18&lt;/div&gt;&lt;div&gt;إغلاق الخدمة&lt;/div&gt;&lt;/div&gt;" style="shape=ellipse;perimeter=ellipsePerimeter;html=1;whiteSpace=wrap;overflow=visible;fillColor=#FFFFFF;strokeColor=#253943;strokeWidth=2;align=center;verticalAlign=middle;fontSize=26;spacing=3;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;" vertex="1" parent="pkg-clinical" ucRef="UC-18" domainRef="clinical">
+          <mxGeometry x="795.0" y="588.0" width="370" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P" value="" style="group;fillColor=none;strokeColor=none;connectable=1;" vertex="1" parent="1" roleRef="P" actorName="Patient">
+          <mxGeometry x="140" y="1580" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#172B36;strokeWidth=2.5;" vertex="1" parent="actor-P">
+          <mxGeometry x="30" y="0" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-P-body" value="" style="endArrow=none;startArrow=none;strokeColor=#172B36;strokeWidth=2.5;" edge="1" parent="actor-P">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="20" as="sourcePoint" />
+            <mxPoint x="40" y="82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-arms" value="" style="endArrow=none;startArrow=none;strokeColor=#172B36;strokeWidth=2.5;" edge="1" parent="actor-P">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="50" as="sourcePoint" />
+            <mxPoint x="80" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-left-leg" value="" style="endArrow=none;startArrow=none;strokeColor=#172B36;strokeWidth=2.5;" edge="1" parent="actor-P">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="82" as="sourcePoint" />
+            <mxPoint x="12" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-right-leg" value="" style="endArrow=none;startArrow=none;strokeColor=#172B36;strokeWidth=2.5;" edge="1" parent="actor-P">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="82" as="sourcePoint" />
+            <mxPoint x="68" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-P-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:19px;line-height:1.45;text-align:center;font-weight:700&quot;&gt;&lt;span dir=&quot;ltr&quot;&gt;Patient&lt;/span&gt;&lt;br/&gt;المريض&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=visible;spacing=0;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="0" y="1600" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D" value="" style="group;fillColor=none;strokeColor=none;connectable=1;" vertex="1" parent="1" roleRef="D" actorName="Doctor">
+          <mxGeometry x="2660" y="2270" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#172B36;strokeWidth=2.5;" vertex="1" parent="actor-D">
+          <mxGeometry x="30" y="0" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-D-body" value="" style="endArrow=none;startArrow=none;strokeColor=#172B36;strokeWidth=2.5;" edge="1" parent="actor-D">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="20" as="sourcePoint" />
+            <mxPoint x="40" y="82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-arms" value="" style="endArrow=none;startArrow=none;strokeColor=#172B36;strokeWidth=2.5;" edge="1" parent="actor-D">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="50" as="sourcePoint" />
+            <mxPoint x="80" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-left-leg" value="" style="endArrow=none;startArrow=none;strokeColor=#172B36;strokeWidth=2.5;" edge="1" parent="actor-D">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="82" as="sourcePoint" />
+            <mxPoint x="12" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-right-leg" value="" style="endArrow=none;startArrow=none;strokeColor=#172B36;strokeWidth=2.5;" edge="1" parent="actor-D">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="82" as="sourcePoint" />
+            <mxPoint x="68" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-D-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:23px;line-height:1.45;text-align:center;font-weight:700&quot;&gt;&lt;span dir=&quot;ltr&quot;&gt;Doctor&lt;/span&gt;&lt;br/&gt;الطبيب&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=visible;spacing=0;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="2755" y="2290" width="240" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N" value="" style="group;fillColor=none;strokeColor=none;connectable=1;" vertex="1" parent="1" roleRef="N" actorName="Nurse">
+          <mxGeometry x="3260" y="660" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#172B36;strokeWidth=2.5;" vertex="1" parent="actor-N">
+          <mxGeometry x="30" y="0" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-N-body" value="" style="endArrow=none;startArrow=none;strokeColor=#172B36;strokeWidth=2.5;" edge="1" parent="actor-N">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="20" as="sourcePoint" />
+            <mxPoint x="40" y="82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-arms" value="" style="endArrow=none;startArrow=none;strokeColor=#172B36;strokeWidth=2.5;" edge="1" parent="actor-N">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="50" as="sourcePoint" />
+            <mxPoint x="80" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-left-leg" value="" style="endArrow=none;startArrow=none;strokeColor=#172B36;strokeWidth=2.5;" edge="1" parent="actor-N">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="82" as="sourcePoint" />
+            <mxPoint x="12" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-right-leg" value="" style="endArrow=none;startArrow=none;strokeColor=#172B36;strokeWidth=2.5;" edge="1" parent="actor-N">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="82" as="sourcePoint" />
+            <mxPoint x="68" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-N-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:20px;line-height:1.45;text-align:center;font-weight:700&quot;&gt;&lt;span dir=&quot;ltr&quot;&gt;Nurse&lt;/span&gt;&lt;br/&gt;الممرض&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=visible;spacing=0;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="3350" y="680" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-A" value="" style="group;fillColor=none;strokeColor=none;connectable=1;" vertex="1" parent="1" roleRef="A" actorName="Administrator">
+          <mxGeometry x="2660" y="170" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-A-head" value="" style="shape=ellipse;perimeter=ellipsePerimeter;fillColor=#FFFFFF;strokeColor=#172B36;strokeWidth=2.5;" vertex="1" parent="actor-A">
+          <mxGeometry x="30" y="0" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-A-body" value="" style="endArrow=none;startArrow=none;strokeColor=#172B36;strokeWidth=2.5;" edge="1" parent="actor-A">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="20" as="sourcePoint" />
+            <mxPoint x="40" y="82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-A-arms" value="" style="endArrow=none;startArrow=none;strokeColor=#172B36;strokeWidth=2.5;" edge="1" parent="actor-A">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="50" as="sourcePoint" />
+            <mxPoint x="80" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-A-left-leg" value="" style="endArrow=none;startArrow=none;strokeColor=#172B36;strokeWidth=2.5;" edge="1" parent="actor-A">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="82" as="sourcePoint" />
+            <mxPoint x="12" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-A-right-leg" value="" style="endArrow=none;startArrow=none;strokeColor=#172B36;strokeWidth=2.5;" edge="1" parent="actor-A">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="82" as="sourcePoint" />
+            <mxPoint x="68" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor-A-label" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:23px;line-height:1.45;text-align:center;font-weight:700&quot;&gt;&lt;span dir=&quot;ltr&quot;&gt;Administrator&lt;/span&gt;&lt;br/&gt;مسؤول النظام&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=visible;spacing=0;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="2755" y="190" width="240" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-left" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:23px;line-height:1.45;text-align:center;font-weight:400&quot;&gt;المرجع الوظيفي: Markdown 2.0 · قواعد الرسم: OMG UML 2.5.1&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=visible;spacing=0;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="420" y="2290" width="1700" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-note" value="&lt;div dir=&quot;rtl&quot; style=&quot;font-family:Noto Sans Arabic,DejaVu Sans,sans-serif;font-size:21px;line-height:1.45;text-align:center;font-weight:400&quot;&gt;المساعد الذكي مكوّن داخلي داعم؛ لا توجد جهات إضافية أو وظائف مستقبلية في هذا الرسم.&lt;/div&gt;" style="text;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=visible;spacing=0;fontFamily=Noto Sans Arabic,DejaVu Sans,sans-serif;fontColor=#172B36;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="420" y="2350" width="1700" height="65" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
